@@ -1,5 +1,7 @@
 function Ostrich(x,y,w,h){
   //declare your variables here
+  this.isJumping = false;
+  this.jumpStrength = 10;
   
   this.display = function(){
    
